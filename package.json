@@ -1,0 +1,1 @@
+{"name":"chess-coach-iphone","version":"1.0.0","private":true,"type":"module","scripts":{"postinstall":"node scripts/copy-engine.mjs","dev":"vite --host 0.0.0.0","build":"node scripts/copy-engine.mjs && vite build"},"dependencies":{"chess.js":"^1.4.0","stockfish":"19.0.1"},"devDependencies":{"vite":"^7.1.0"}}
